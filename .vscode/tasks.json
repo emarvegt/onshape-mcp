@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Check Onshape MCP prerequisites",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/launch-mcp.sh",
+      "args": ["--check"],
+      "problemMatcher": []
+    }
+  ]
+}

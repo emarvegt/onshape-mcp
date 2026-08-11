@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Onshape MCP server",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "onshape_mcp.server",
+      "python": "${workspaceFolder}/venv/bin/python",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "preLaunchTask": "Check Onshape MCP prerequisites"
+    }
+  ]
+}
